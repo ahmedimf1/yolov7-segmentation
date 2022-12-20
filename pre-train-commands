@@ -1,0 +1,2 @@
+source /users/aem603/scratch/anaconda3/bin/activate yolov7-seg
+PYTHONPATH=$PWD python3 segment/train.py --data data/data.yaml --batch 16 --weights "yolov7-segmentation/yolov7-seg.pt" --epochs 600 --name yolov7-seg --img 1280 --device 0,1,2,3 --freeze 50
