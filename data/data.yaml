@@ -1,0 +1,13 @@
+train: dataset/train/images
+val: dataset/valid/images
+test: dataset/test/images
+
+nc: 1
+names: ['wheat']
+
+roboflow:
+  workspace: wheat-ysnz5
+  project: wheat-is83m
+  version: 1
+  license: MIT
+  url: https://universe.roboflow.com/wheat-ysnz5/wheat-is83m/dataset/1
